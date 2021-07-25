@@ -1,9 +1,13 @@
 .screen-header {
-  padding: var(--horizontal-space);
+  padding: 0px var(--horizontal-space);
   padding-top: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+.screen-header-chats {
+  margin-bottom: 26px;
 }
 .screen-header__title {
   font-size: 32px;

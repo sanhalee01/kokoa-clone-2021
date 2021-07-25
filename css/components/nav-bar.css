@@ -14,18 +14,9 @@
   position: relative;
 }
 .nav__notification__number {
-  background-color: #ff6229;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 15px;
   bottom: 15px;
-  color: white;
-  width: 25px;
-  height: 25px;
-  border-radius: 12.5px;
-  font-weight: 600;
 }
 .nav__notification__circle {
   background-color: #ff6229;
