@@ -1,5 +1,5 @@
 .nav {
-  border-top: 1px solid #ededed;
+  border-top: 1px solid var(--main-border);
   background-color: #f9f9fa;
   position: fixed;
   bottom: 0px;
