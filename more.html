@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>more - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,32 +24,91 @@
     </div>
 
     <header class="screen-header screen-header-chats">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <div class="badge-circle-cog"></div>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5f9c58c2017800001.png"
+            src="img/user-sanha.jpg"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">KaKaoTalk</h4>
-            <h6 class="user-component__subtitle">
-              Please check My KaKao Account Info
-            </h6>
+            <h4 class="user-component__title">Sanha</h4>
+            <h6 class="user-component__subtitle">+1 787-493-4219</h6>
           </div>
         </div>
         <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
+          <i class="far fa-comment-alt fa-2x user-component__icon--black"></i>
+        </div>
+      </div>
+      <div class="icon-row icon-row-small">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-inbox"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="icon-row icon-row-small">
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comments"></i>
+          <span>openchat</span>
+        </div>
+        <div class="icon-row__icon">
+          <span></span>
+        </div>
+        <div class="icon-row__icon">
+          <span></span>
+        </div>
+      </div>
+      <div class="more-suggestion">
+        <h4 class="more-suggestion__title">Suggestions</h4>
+        <div class="icon-row">
+          <div class="icon-row__icon icon-row__icon--grey">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+            <span>Kakao Story</span>
+          </div>
+          <div class="icon-row__icon icon-row__icon--grey">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSennoFwWM3j3bQHb6DsgqbnrA2YXITNOzcNg&usqp=CAU"
+            />
+            <span>KaKao friends</span>
+          </div>
+          <div class="icon-row__icon icon-row__icon--grey">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1LHSsHx_Onajg5L8XmqHFKb8-b1gJjdh3A&usqp=CAU"
+            />
+            <span>Friends Gem</span>
+          </div>
+          <div class="icon-row__icon">
+            <span></span>
+          </div>
         </div>
       </div>
     </main>
@@ -63,8 +122,8 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification__number badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <span class="badge-number badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -74,7 +133,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <div class="nav__notification__circle"></div>
+            <div class="badge-circle"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
         </li>

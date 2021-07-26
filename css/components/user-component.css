@@ -49,3 +49,6 @@
 .user-component:last-child span {
   margin-right: 5px;
 }
+.user-component__icon--black {
+  color: #2f363e;
+}

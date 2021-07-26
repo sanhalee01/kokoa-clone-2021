@@ -9,16 +9,18 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #2f363e;
-  height: 1000vh;
+  height: 200vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

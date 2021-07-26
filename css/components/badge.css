@@ -9,3 +9,32 @@
   border-radius: 12.5px;
   font-weight: 600;
 }
+.badge-number {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.badge-circle {
+  background-color: #ff6229;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
+.badge-circle-cog {
+  background-color: #ff6229;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
